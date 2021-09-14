@@ -21,3 +21,8 @@ box-shadow: 0px 3px 0px  #ad1200;
      background: #171313;
      box-shadow: 0px 3px 0px #000000;
  }
+
+ .button.red {
+     background: #ad1200;
+     box-shadow: #470a03;
+ }
