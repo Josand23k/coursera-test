@@ -54,8 +54,8 @@ header nav a {
 }
 
 header nav a:hover {
-background: grey;
-border-radius: 50px;
+    background: grey;
+    border-radius: 50px;
 }
 
 .header2 {
