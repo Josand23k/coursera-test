@@ -57,8 +57,3 @@ header nav a:hover {
     background: grey;
     border-radius: 50px;
 }
-
-.header2 {
-    position: fixed;
-    height: 100px;
-}
