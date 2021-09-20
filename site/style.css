@@ -92,13 +92,15 @@ footer {
     background: rgb(47, 51, 51);
     color: rgb(226, 224, 224);
     width: 100%;
+    padding: 40px;
 }
 
 .todo {
     width: 100%;
     max-width: 1200px;
+    margin:auto;
 }
-.contenido {
+.piedepagina {
     display: flex;
     justify-content: space-between;
 }
@@ -112,7 +114,7 @@ footer {
 }
 
 .columna1 p {
-    font-size: 16px;
+    font-size: 14px;
     color:rgb(226, 224, 224);
     margin-top: 20px;
 }
@@ -162,6 +164,14 @@ footer {
 .lista label {
     margin-top: 10px;
     margin-left: 20px;
-    max-width: 100px;
+    max-width: 140px;
 }
 
+.pie {
+    margin: auto;
+    max-width: 1200px;
+    background: black;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
