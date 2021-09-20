@@ -65,6 +65,103 @@ header nav a:hover {
 }
 
 .contenido {
-    position: relative;
-    margin-bottom: 10px;
+    padding: 120px;
 }
+.contenido p {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 950px) {
+    header .logo,
+    header nav {
+        width:100%;
+        text-align:center;
+        line-height:100px;
+    }
+
+    .cabecera {
+        height: auto;
+    }
+    .cabecera .logo, 
+    .cabecera nav {
+        line-height:50px;
+    }
+}
+
+footer {
+    background: rgb(47, 51, 51);
+    color: rgb(226, 224, 224);
+    width: 100%;
+}
+
+.todo {
+    width: 100%;
+    max-width: 1200px;
+}
+.contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1 {
+    max-width: 400px;
+}
+
+.columna1 h3 {
+    font-size: 20px;
+}
+
+.columna1 p {
+    font-size: 16px;
+    color:rgb(226, 224, 224);
+    margin-top: 20px;
+}
+
+.columna2 {
+    max-width: 400px;
+}
+
+.columna2 h3 {
+    font-size: 20px;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 35px;
+    height: 35px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color:rgb(226, 224, 224);
+}
+
+.columna3 {
+    max-width: 400px;
+}
+
+.columna3 h3 {
+    font-size: 20px;
+}
+
+.lista {
+    margin-top: 20px;
+    display: flex;
+}
+
+.lista img {
+    width: 35px;
+    height: 35px;
+}
+
+.lista label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 100px;
+}
+
